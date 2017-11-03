@@ -36,15 +36,15 @@ Step3. 태그를 이용해 웹페이지에서 원하는 정보만을 크롤
 ### **Step2. Creating Crawler**
 
 - BeautifulSoup : 크롤러 생성 함수, bs4패키지에서 import 가능
-- html_parser 
+- html.parser 
 	- 어떤 방식으로 crawl을 해올 것인지에 관한 파라미터
 	- html_parser는 "html 문법으로 불러 오겠다" 라는 의미
 
 
 
->pip3 install beautifulsoup4<br>
+>!pip3 install beautifulsoup4 <br>
 >from bs4 import BeautifulSoup <br>
->crawler = BeautifulSoup(html, "html_parser")
+>crawler = BeautifulSoup(html, "html.parser")
 
 ### **Step3. 웹페이지에서 원하는 정보만 크롤링**
 
