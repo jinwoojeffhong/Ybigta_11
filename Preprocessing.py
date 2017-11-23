@@ -1,16 +1,6 @@
-
-# coding: utf-8
-
-# In[225]:
-
-
 import pandas as pd
 import cufflinks as cf
 cf.go_offline()
-
-
-# In[287]:
-
 
 mk = pd.read_csv("C:\\Users\\Jeff Hong\\Desktop\\[MKA]Project\\facebook.csv", 
                  encoding="utf-8")
