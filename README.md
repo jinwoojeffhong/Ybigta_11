@@ -1,2 +1,2 @@
 # Ybigta_11
-whatever we study, it deserves
+안녕하세요 ㅎㅎ
